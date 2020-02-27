@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif;
+    background: dodgerblue;
+    margin: 0;
+}
+
+/*CSS for Header Division*/
+
+.header {
+    background: rgb(34, 33, 33);/*You can select color from color palate using VS code editor.*/
+    margin: 0px 100px;
+    color: white;
+}
+
+.header .company-logo img {
+    width: 100%;
+}
+
+.header .border {
+    border: 2px solid white;
+}
+
+.header .menu-bar {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.header .menu-bar div{
+    width: 10%;
+    height: 40px;
+}
+
+.header .menu-bar div button{
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    background: transparent;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.header .menu-bar div button:hover{
+    background-color: black;
+}
+
+.header .menu-bar h2 {
+    text-align: center;
+    border-bottom: 2px solid white;
+    margin: 10px 450px;
+}
+
+
+/*      CSS for Main Divisoin       */
+
+.info-container {
+    background: rgb(34, 33, 33);/*You can select color from color palate using VS code editor.*/
+    margin: 0px 100px;
+    color: white;
+}
+
+/*      CSS for Footer Division     */
+
+.footer {
+    background: rgb(34, 33, 33);/*You can select color from color palate using VS code editor.*/
+    margin: 0px 100px;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {/*CSS code for smaller devices, not done any yet.*/
+
+
+}
