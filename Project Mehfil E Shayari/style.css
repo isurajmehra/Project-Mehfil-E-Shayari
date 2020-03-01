@@ -45,6 +45,7 @@ body {
 
 .header .menu-bar div button:hover{
     background-color: black;
+    border-bottom: 2px solid white;
 }
 
 .header .menu-bar h2 {
@@ -56,19 +57,57 @@ body {
 
 /*      CSS for Main Divisoin       */
 
-.info-container {
-    background: rgb(34, 33, 33);/*You can select color from color palate using VS code editor.*/
-    margin: 0px 100px;
+.main {
+    text-align: center;
+    color: black;
+    background: white;/*You can select color from color palate using VS code editor.*/
+    margin: -18px 100px;
+}
+
+.main .info-container h1 {
+    background: red;
     color: white;
+}
+
+.main .info-container .trends {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main .info-container .trends .shayari-box {
+    width: 35%;
+    box-shadow: 10px 10px 8px 0px black;
+    border-left: 5px solid red;
+    margin: 10px;
+    text-align: left;
+    background: rgb(255, 241, 241);
+}
+
+.main .info-container .trends .shayari-box h3 {
+    background: dodgerblue;
+    border-left: 5px solid rgb(34, 33, 33);
+    margin: 0px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    font-size: 23px;
+}
+
+.main .info-container .trends .shayari-box p {
+    font-weight: bold;
+    margin-left: 5px;
 }
 
 /*      CSS for Footer Division     */
 
 .footer {
     background: rgb(34, 33, 33);/*You can select color from color palate using VS code editor.*/
-    margin: 0px 100px;
     color: white;
+    margin: 10px 100px;
 }
+
 
 @media only screen and (max-width: 600px) {/*CSS code for smaller devices, not done any yet.*/
 
